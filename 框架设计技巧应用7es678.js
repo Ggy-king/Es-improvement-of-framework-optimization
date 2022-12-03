@@ -36,4 +36,10 @@ window.onload = function () {
     var arr1 = [{ value: 10 }, { value: 3 }, { value: 33 }, { value: 35 }, { value: 60 }, { value: 60 }, { value: 10 }, { value: 33 }]
     let fil4 = arr1.filter(num => num.value % 3 != 0)
     console.log(fil4)
+
+
+    s2.size  //元素的个数
+    s2.delete()  //删除某个元素
+    s2.has() //判断某个元素存在与否
+    s2.clear()  //清空
 }
