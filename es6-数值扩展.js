@@ -13,7 +13,6 @@ console.log(b) // 511
 let c = 0xff
 console.log(c) // 255
 
-
 Number.isFinite
 /**
  * Number.isFinite 检测一个数值是否为有限数
